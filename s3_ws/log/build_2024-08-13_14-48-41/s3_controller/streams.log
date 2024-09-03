@@ -1,0 +1,22 @@
+[0.080s] Invoking command in '/home/ashish/s3_ws/build/s3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashish/s3_ws/build/s3_controller -- -j2 -l2
+[0.471s] Invoked command in '/home/ashish/s3_ws/build/s3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashish/s3_ws/build/s3_controller -- -j2 -l2
+[0.592s] Invoking command in '/home/ashish/s3_ws/build/s3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ashish/s3_ws/build/s3_controller
+[0.641s] -- Install configuration: ""
+[0.643s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/config
+[0.645s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/config/s3_controllers.yaml
+[0.654s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/ament_index/resource_index/package_run_dependencies/s3_controller
+[0.658s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/ament_index/resource_index/parent_prefix_path/s3_controller
+[0.661s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/environment/ament_prefix_path.sh
+[0.662s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/environment/ament_prefix_path.dsv
+[0.663s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/environment/path.sh
+[0.666s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/environment/path.dsv
+[0.674s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/local_setup.bash
+[0.677s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/local_setup.sh
+[0.677s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/local_setup.zsh
+[0.678s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/local_setup.dsv
+[0.678s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/package.dsv
+[0.679s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/ament_index/resource_index/packages/s3_controller
+[0.679s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/cmake/s3_controllerConfig.cmake
+[0.679s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/cmake/s3_controllerConfig-version.cmake
+[0.679s] -- Up-to-date: /home/ashish/s3_ws/install/s3_controller/share/s3_controller/package.xml
+[0.683s] Invoked command in '/home/ashish/s3_ws/build/s3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ashish/s3_ws/build/s3_controller

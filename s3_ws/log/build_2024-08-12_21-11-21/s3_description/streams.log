@@ -1,0 +1,42 @@
+[0.036s] Invoking command in '/home/ashish/s3_ws/build/s3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashish/s3_ws/build/s3_description -- -j2 -l2
+[0.214s] Invoked command in '/home/ashish/s3_ws/build/s3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashish/s3_ws/build/s3_description -- -j2 -l2
+[0.328s] Invoking command in '/home/ashish/s3_ws/build/s3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ashish/s3_ws/build/s3_description
+[0.354s] -- Install configuration: ""
+[0.354s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/launch
+[0.355s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/launch/gazebo.launch.py
+[0.356s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/launch/display.launch.py
+[0.357s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/urdf
+[0.358s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/urdf/s3_gazebo.xacro
+[0.361s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/urdf/s3_ros2_control.xacro
+[0.365s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/urdf/s3.urdf.xacro
+[0.366s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/rviz
+[0.366s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/rviz/display.rviz
+[0.367s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/models
+[0.368s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/models/sun
+[0.376s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/models/sun/model.sdf
+[0.379s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/models/sun/model.config
+[0.381s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/models/sun/model-1_4.sdf
+[0.381s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/models/sun/model-1_2.sdf
+[0.382s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/models/sun/model-1_3.sdf
+[0.384s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/models/ground_plane
+[0.384s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/models/ground_plane/model.sdf
+[0.385s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/models/ground_plane/model.config
+[0.385s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/models/ground_plane/model-1_4.sdf
+[0.385s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/models/ground_plane/model-1_2.sdf
+[0.385s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/models/ground_plane/model-1_3.sdf
+[0.385s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/ament_index/resource_index/package_run_dependencies/s3_description
+[0.389s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/ament_index/resource_index/parent_prefix_path/s3_description
+[0.389s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/environment/ament_prefix_path.sh
+[0.390s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/environment/ament_prefix_path.dsv
+[0.390s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/environment/path.sh
+[0.391s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/environment/path.dsv
+[0.391s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/local_setup.bash
+[0.391s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/local_setup.sh
+[0.392s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/local_setup.zsh
+[0.392s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/local_setup.dsv
+[0.392s] -- Installing: /home/ashish/s3_ws/install/s3_description/share/s3_description/package.dsv
+[0.392s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/ament_index/resource_index/packages/s3_description
+[0.392s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/cmake/s3_descriptionConfig.cmake
+[0.393s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/cmake/s3_descriptionConfig-version.cmake
+[0.393s] -- Up-to-date: /home/ashish/s3_ws/install/s3_description/share/s3_description/package.xml
+[0.426s] Invoked command in '/home/ashish/s3_ws/build/s3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ashish/s3_ws/build/s3_description

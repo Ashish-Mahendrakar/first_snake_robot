@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<robot name="snake_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Include Gazebo Parameters -->
+  <!-- <xacro:include filename="$(find s3_description)/urdf/s3_gazebo.xacro" /> -->
+  <gazebo>
+      <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+        <robot_param>robot_description</robot_param>
+        <robot_param_node>robot_state_publisher</robot_param_node>
+        <parameters>$(find s3_controller)/config/s3_controllers.yaml</parameters>
+      </plugin>
+  </gazebo>
+    <!-- Include ros2_control Plugins -->
+  <!-- <xacro:include filename="$(find s3_description)/urdf/s3_ros2_control.xacro" /> -->
+  <ros2_control name="RobotSystem" type="system">
+
+        <xacro:property name="PI" value="3.14159265359" />
+
+        <!-- ros2_control Gazebo -->
+        <hardware>
+            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+        </hardware>
+
+        <joint name="joint_1">
+            <command_interface name="position">
+            <param name="min">-${PI / 2}</param>
+            <param name="max">${PI / 2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="joint_2">
+            <command_interface name="position">
+            <param name="min">-${PI / 2}</param>
+            <param name="max">${PI / 2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        
+  </ros2_control>
+
+  <xacro:property name="PI" value="3.14159265359" /> 
+  
+  <xacro:macro name="default_transmission" params="number">
+        <transmission name="transmission_${number}">
+            <plugin>transmission_interface/SimpleTransmission</plugin>
+            <actuator name="motor_${number}" role="actuator1"/>
+            <joint name="joint_${number}"    role="joint1">
+                <mechanical_reduction>1.0</mechanical_reduction>
+            </joint>
+        </transmission>
+  </xacro:macro>  
+  
+
+  <!-- Base Link -->
+  <link name="base_link" />
+    
+  <!-- Link 1 -->
+  <link name="link1">
+    <inertial>
+      <origin xyz="0.2 0 0.05" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0"
+               iyy="1.0" iyz="0.0"
+               izz="1.0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.2 0 0.05" rpy="0 0 0" />
+      <geometry>
+        <box size="0.4 0.1 0.1"/> <!-- Length, Width, Height -->
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.2 0 0.05" rpy="0 0 0" />
+      <geometry>
+        <box size="0.4 0.1 0.1"/> <!-- Length, Width, Height -->
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link 2 -->
+  <link name="link2">
+    <inertial>
+      <origin xyz="0.2 0 0.05" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0"
+               iyy="1.0" iyz="0.0"
+               izz="1.0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.2 0 0.05" rpy="0 0 0" />
+      <geometry>
+        <box size="0.4 0.1 0.1"/> <!-- Length, Width, Height -->
+      </geometry>
+      <material name="green">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.2 0 0.05" rpy="0 0 0" />
+      <geometry>
+        <box size="0.4 0.1 0.1"/> <!-- Length, Width, Height -->
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link 3 -->
+  <link name="link3">
+    <inertial>
+      <origin xyz="0.2 0 0.05" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0"
+               iyy="1.0" iyz="0.0"
+               izz="1.0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.2 0 0.05" rpy="0 0 0" />
+      <geometry>
+        <box size="0.4 0.1 0.1"/> <!-- Length, Width, Height -->
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.2 0 0.05" rpy="0 0 0" />
+      <geometry>
+        <box size="0.4 0.1 0.1"/> <!-- Length, Width, Height -->
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 0: Between Base Link and Link 1 -->
+  <joint name="joint0" type="fixed">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Joint 1: Between Link 1 and Link 2 -->
+  <joint name="joint_1" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="0.4 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/> <!-- Rotation around Z-axis -->
+    <limit lower="${-PI/2}" upper="${PI/2}" effort="30" velocity="10" />
+  </joint>
+
+  <!-- Joint 2: Between Link 2 and Link 3 -->
+  <joint name="joint_2" type="revolute">
+    <parent link="link2"/>
+    <child link="link3"/>
+    <origin xyz="0.4 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/> <!-- Rotation around Z-axis -->
+    <limit lower="${-PI/2}" upper="${PI/2}" effort="30" velocity="10" />
+  </joint>
+
+  <xacro:default_transmission number="1"/>
+  <xacro:default_transmission number="2"/>
+
+</robot>

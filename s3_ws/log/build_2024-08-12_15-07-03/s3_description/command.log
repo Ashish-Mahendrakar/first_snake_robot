@@ -1,0 +1,6 @@
+Invoking command in '/home/ashish/s3_ws/build/s3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ashish/s3_ws/src/s3_description -DCMAKE_INSTALL_PREFIX=/home/ashish/s3_ws/install/s3_description
+Invoked command in '/home/ashish/s3_ws/build/s3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ashish/s3_ws/src/s3_description -DCMAKE_INSTALL_PREFIX=/home/ashish/s3_ws/install/s3_description
+Invoking command in '/home/ashish/s3_ws/build/s3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashish/s3_ws/build/s3_description -- -j2 -l2
+Invoked command in '/home/ashish/s3_ws/build/s3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashish/s3_ws/build/s3_description -- -j2 -l2
+Invoking command in '/home/ashish/s3_ws/build/s3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ashish/s3_ws/build/s3_description
+Invoked command in '/home/ashish/s3_ws/build/s3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ashish/s3_ws/build/s3_description

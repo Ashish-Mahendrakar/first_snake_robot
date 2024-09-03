@@ -1,0 +1,16 @@
+/home/ashish/s3_ws/install/s3_controller/share/s3_controller/config/s3_controllers.yaml
+/home/ashish/s3_ws/install/s3_controller/share/ament_index/resource_index/package_run_dependencies/s3_controller
+/home/ashish/s3_ws/install/s3_controller/share/ament_index/resource_index/parent_prefix_path/s3_controller
+/home/ashish/s3_ws/install/s3_controller/share/s3_controller/environment/ament_prefix_path.sh
+/home/ashish/s3_ws/install/s3_controller/share/s3_controller/environment/ament_prefix_path.dsv
+/home/ashish/s3_ws/install/s3_controller/share/s3_controller/environment/path.sh
+/home/ashish/s3_ws/install/s3_controller/share/s3_controller/environment/path.dsv
+/home/ashish/s3_ws/install/s3_controller/share/s3_controller/local_setup.bash
+/home/ashish/s3_ws/install/s3_controller/share/s3_controller/local_setup.sh
+/home/ashish/s3_ws/install/s3_controller/share/s3_controller/local_setup.zsh
+/home/ashish/s3_ws/install/s3_controller/share/s3_controller/local_setup.dsv
+/home/ashish/s3_ws/install/s3_controller/share/s3_controller/package.dsv
+/home/ashish/s3_ws/install/s3_controller/share/ament_index/resource_index/packages/s3_controller
+/home/ashish/s3_ws/install/s3_controller/share/s3_controller/cmake/s3_controllerConfig.cmake
+/home/ashish/s3_ws/install/s3_controller/share/s3_controller/cmake/s3_controllerConfig-version.cmake
+/home/ashish/s3_ws/install/s3_controller/share/s3_controller/package.xml

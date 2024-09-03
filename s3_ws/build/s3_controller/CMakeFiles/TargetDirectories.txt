@@ -1,0 +1,9 @@
+/home/ashish/s3_ws/build/s3_controller/CMakeFiles/uninstall.dir
+/home/ashish/s3_ws/build/s3_controller/CMakeFiles/s3_controller_uninstall.dir
+/home/ashish/s3_ws/build/s3_controller/CMakeFiles/test.dir
+/home/ashish/s3_ws/build/s3_controller/CMakeFiles/edit_cache.dir
+/home/ashish/s3_ws/build/s3_controller/CMakeFiles/rebuild_cache.dir
+/home/ashish/s3_ws/build/s3_controller/CMakeFiles/list_install_components.dir
+/home/ashish/s3_ws/build/s3_controller/CMakeFiles/install.dir
+/home/ashish/s3_ws/build/s3_controller/CMakeFiles/install/local.dir
+/home/ashish/s3_ws/build/s3_controller/CMakeFiles/install/strip.dir
